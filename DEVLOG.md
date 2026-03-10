@@ -5,6 +5,26 @@ Auto-maintained via [claude-devlog-skill](https://github.com/d6veteran/claude-de
 
 ---
 
+## [2026-03-10] First production use validated — nvoss-dashboard
+
+**Category:** `milestone`
+**Tags:** `validation`, `production`, `nvoss-dashboard`
+**Risk Level:** `low`
+**Breaking Change:** `no`
+
+### Summary
+Skill validated in a real project session — used on `nvoss-dashboard` to create and populate a ROADMAP.md. Skill triggered correctly, generated the two-section structure, and committed cleanly.
+
+### Detail
+- First real-world invocation confirmed the trigger conditions, ROADMAP.md template, and git workflow all work as designed
+- `/roadmap` slash command added to `claude-team-cli` and installed — available in all Claude Code sessions alongside `/devlog`
+- Both companion skills (`claude-devlog-skill`, `claude-roadmap-skill`) now listed in the `claude-dev-team` README under "Companion Skills" with a combined install block
+
+### Related
+- [claude-team-cli](https://github.com/d6veteran/claude-dev-team) — `/roadmap` command added in this session
+
+---
+
 ## [2026-03-10] v1 shipped — SKILL.md, README, project structure
 
 **Category:** `milestone`
