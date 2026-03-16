@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="publish/claude-roadmap-skill-header.svg" alt="claude-roadmap-skill" width="100%">
+</p>
+
 # claude-roadmap-skill
 
 > Your product roadmap. Always current. Always explained.
