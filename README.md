@@ -24,9 +24,9 @@ Next time, the roadmap is a list with no memory. Why is this item Tier 1? When d
 
 Developers and small teams who use Claude for product planning and are tired of losing the reasoning behind their priorities between sessions.
 
-Works especially well alongside [claude-dev-team](https://github.com/d6veteran/claude-dev-team). When River helps you plan and reprioritize across sessions, the roadmap skill ensures every decision persists — and can be read back in the next session with full context.
+Works especially well alongside [claude-dev-team](https://github.com/code-katz/claude-dev-team). When River helps you plan and reprioritize across sessions, the roadmap skill ensures every decision persists — and can be read back in the next session with full context.
 
-Also pairs naturally with [claude-devlog-skill](https://github.com/d6veteran/claude-devlog-skill): when a milestone ships and gets logged to the devlog, the roadmap gets updated to mark it complete and re-sequence what's next.
+Also pairs naturally with [claude-devlog-skill](https://github.com/code-katz/claude-devlog-skill): when a milestone ships and gets logged to the devlog, the roadmap gets updated to mark it complete and re-sequence what's next.
 
 ---
 
@@ -92,7 +92,7 @@ This skill is for [Claude Code](https://claude.ai/code). Install it once and it'
 ```bash
 mkdir -p ~/.claude/skills/roadmap
 curl -o ~/.claude/skills/roadmap/SKILL.md \
-  https://raw.githubusercontent.com/d6veteran/claude-roadmap-skill/main/SKILL.md
+  https://raw.githubusercontent.com/code-katz/claude-roadmap-skill/main/SKILL.md
 ```
 
 ---
