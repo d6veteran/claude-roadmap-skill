@@ -24,7 +24,7 @@ Next time, the roadmap is a list with no memory. Why is this item Tier 1? When d
 
 Developers and small teams who use Claude for product planning and are tired of losing the reasoning behind their priorities between sessions.
 
-Works especially well alongside [claude-dev-team](https://github.com/code-katz/claude-dev-team). When River helps you plan and reprioritize across sessions, the roadmap skill ensures every decision persists — and can be read back in the next session with full context.
+Works especially well alongside [claude-team-cli](https://github.com/code-katz/claude-team-cli). When River helps you plan and reprioritize across sessions, the roadmap skill ensures every decision persists — and can be read back in the next session with full context.
 
 Also pairs naturally with [claude-devlog-skill](https://github.com/code-katz/claude-devlog-skill): when a milestone ships and gets logged to the devlog, the roadmap gets updated to mark it complete and re-sequence what's next.
 
@@ -147,6 +147,18 @@ All changes are shown for review before committing. Authentication is handled vi
 ### Why
 ### Open Questions Resolved / Added
 ```
+
+---
+
+## Works Well With
+
+| Project | What it does |
+|---|---|
+| [claude-team-cli](https://github.com/code-katz/claude-team-cli) | Ten specialist personas for Claude Code — River's planning sessions feed directly into roadmap updates |
+| [claude-devlog-skill](https://github.com/code-katz/claude-devlog-skill) | Structured development changelog — when a milestone ships and gets devlogged, the roadmap marks it complete |
+| [claude-plans-skill](https://github.com/code-katz/claude-plans-skill) | Archives finalized implementation plans — the roadmap sets the priorities, plans capture the implementation approach |
+| [claude-todo-skill](https://github.com/code-katz/claude-todo-skill) | Lightweight task scratchpad — capture ideas mid-session without losing your train of thought |
+| [claude-publish-agent](https://github.com/code-katz/claude-publish-agent) | Publish markdown to blogging platforms — write about what you've built and ship it from the terminal |
 
 ---
 
