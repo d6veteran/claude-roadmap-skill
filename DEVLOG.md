@@ -1,7 +1,7 @@
 # claude-roadmap-skill — Development Log
 
 A living record of architectural decisions, milestones, key insights, and strategic direction.
-Auto-maintained via [claude-devlog-skill](https://github.com/d6veteran/claude-devlog-skill). Entries are reverse-chronological.
+Auto-maintained via [claude-devlog-skill](https://github.com/code-katz/claude-devlog-skill). Entries are reverse-chronological.
 
 ---
 
@@ -21,7 +21,7 @@ Skill validated in a real project session — used on `nvoss-dashboard` to creat
 - Both companion skills (`claude-devlog-skill`, `claude-roadmap-skill`) now listed in the `claude-dev-team` README under "Companion Skills" with a combined install block
 
 ### Related
-- [claude-team-cli](https://github.com/d6veteran/claude-dev-team) — `/roadmap` command added in this session
+- [claude-team-cli](https://github.com/code-katz/claude-dev-team) — `/roadmap` command added in this session
 
 ---
 
@@ -47,5 +47,5 @@ Initial release of `claude-roadmap-skill` — a Claude Code skill that maintains
 - River is the natural persona owner but the skill is persona-agnostic — any team member can trigger it
 
 ### Related
-- Modeled on [claude-devlog-skill](https://github.com/d6veteran/claude-devlog-skill)
+- Modeled on [claude-devlog-skill](https://github.com/code-katz/claude-devlog-skill)
 - Reference format from `engops-dashboard/ROADMAP.md`

@@ -194,7 +194,7 @@ If no ROADMAP.md exists, create it using this template:
 ```markdown
 # [Project Name] — Product Roadmap
 
-> Maintained by [claude-roadmap-skill](https://github.com/d6veteran/claude-roadmap-skill). Last updated: YYYY-MM-DD.
+> Maintained by [claude-roadmap-skill](https://github.com/code-katz/claude-roadmap-skill). Last updated: YYYY-MM-DD.
 
 ---
 
