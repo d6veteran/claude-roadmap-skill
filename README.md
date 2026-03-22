@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="publish/claude-roadmap-skill-header.svg" alt="claude-roadmap-skill" width="100%">
+  <img src="publish/images/claude-roadmap-skill-header.svg" alt="claude-roadmap-skill" width="100%">
 </p>
 
 # claude-roadmap-skill
