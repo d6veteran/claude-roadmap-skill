@@ -106,6 +106,8 @@ Once installed, the skill activates automatically in Claude Code. You can:
 - **Invoke directly** — type `/roadmap` in Claude Code
 - **Read the roadmap in context** — ask "why is X in Tier 2?" and Claude reads the revision history to answer
 
+- **Checks for linter config** on first use per session — flags missing linters and recommends stack-appropriate tools before proceeding
+
 All changes are shown for review before committing. Authentication is handled via your system's git credential helper — no token prompts needed per session.
 
 ---

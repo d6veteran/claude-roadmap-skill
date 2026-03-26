@@ -5,6 +5,26 @@ Auto-maintained via [claude-devlog-skill](https://github.com/code-katz/claude-de
 
 ---
 
+## [2026-03-26] Added lint check requirement to SKILL.md
+
+**Category:** `feature`
+**Tags:** `lint`, `code-quality`, `skill-behavior`, `cross-tool`
+**Risk Level:** `low`
+**Breaking Change:** `no`
+
+### Summary
+Added a "Lint Check" subsection to the Project Context section, requiring the skill to verify the target project has a linter configured on first use per session.
+
+### Detail
+- New subsection placed after "Project Context (First Use Per Session)", before "ROADMAP.md Structure"
+- Same stack-appropriate linter list as all other code-katz tools: Ruff, ESLint/Biome, SwiftLint, golangci-lint, clippy, pre-commit
+- Part of a cross-tool effort to standardize lint checks across all code-katz tools
+
+### Decisions Made
+- **Same placement pattern as devlog skill** — both skills have identical "Project Context (First Use Per Session)" sections, so the lint check goes in the same relative position for consistency
+
+---
+
 ## [2026-03-10] First production use validated — nvoss-dashboard
 
 **Category:** `milestone`
